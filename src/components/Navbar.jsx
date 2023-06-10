@@ -7,7 +7,7 @@ import { AiOutlineClose } from "react-icons/ai";
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className='px-0 2xl:px-40'>
-      <div className='w-full items-center justify-between py-4 px-10'>
+      <div className='w-full items-center justify-between py-4 px-4 md:px-12'>
         <div className='flex items-center justify-between w-full'>
           <a
             href='/'
